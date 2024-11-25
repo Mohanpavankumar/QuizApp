@@ -11,7 +11,7 @@ const questions = [
     {
         question: "Which of the following is a valid Python comment?",
         answers: [
-            {text: "<!----->", correct: false},
+            {text: "% * * %", correct: false},
             {text: "/* */", correct: false},
             {text: "#", correct: true},
             {text: "//", correct: false},
@@ -78,6 +78,7 @@ function showQuestion(){
     questionElement.innerHTML = questionNo + ". " + currectQuestion.question;
 
     currectQuestion.answers.forEach(answer => {
+        // creating button element and adding text to it
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
@@ -165,10 +166,7 @@ function showScore() {
     app.appendChild(nextButton);
 }
 
-
-
-
-
+// Handleing of next button based on no.of questions
 function handleNextButton(){
     currectQuestionIndex++;
     if(currectQuestionIndex <questions.length){
