@@ -97,18 +97,24 @@ function resetState(){
 }
 
 function selectAnwser(e){
+    // Get the button that triggered the event
     const selectedBtn = e.target;
+    // Check if the selected answer is correct by comparing its data attribute
     const isCorrect = selectedBtn.dataset.correct == "true";
     if(isCorrect){
+        // Add the "correct" class to the button if the answer is correct
         selectedBtn.classList.add("correct");
         score++;
     }else{
+        // Add the "incorrect" class to the button if the answer is wrong
         selectedBtn.classList.add("incorrect")
     }
+    // Disable all buttons and highlight the correct answer
     Array.from(answerButtons.children).forEach(button =>{
         if(button.dataset.correct === "true"){
             button.classList.add("correct");
         }
+        // Disable the button to prevent further clicks
         button.disabled = true;
     });
     nextButton.style.display = "block";
