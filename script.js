@@ -182,10 +182,14 @@ function handleNextButton(){
     }
 }
 
+// Add a click event listener to the "Next" button
 nextButton.addEventListener("click", () => {
+    // Check if there are more questions remaining
     if(currectQuestionIndex < questions.length){
+        // If there are, call the function to handle the next question
         handleNextButton();
     }else{
+        // If no questions remain, restart the quiz
         startQuiz();
     }
 }) 
