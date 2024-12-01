@@ -1,6 +1,6 @@
 # QuizApp 🎉
 
-QuizApp is a simple and interactive web-based quiz application built with **HTML**, **CSS**, and **JavaScript**. It allows users to answer multiple-choice questions, displays immediate feedback, and calculates the final score in a stylish and engaging way.
+QuizApp is a simple and interactive web-based quiz application built with **HTML**, **CSS**, and **JavaScript**. It allows users to answer multiple-choice questions, displays immediate feedback, and calculates the final score in a stylish and engaging way. You can try again, by clicking the restart button.
 
 ---
 
