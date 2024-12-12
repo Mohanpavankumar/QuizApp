@@ -50,6 +50,7 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
+// Intitializing the values
 let currectQuestionIndex = 0;
 let score = 0;
 
@@ -65,7 +66,6 @@ function startQuiz() {
     if (scoreContainer) {
         scoreContainer.remove();
     }
-
     nextButton.innerHTML = "Next";
     showQuestion();
 }
