@@ -37,3 +37,5 @@ QuizApp is a simple and interactive web-based quiz application built with **HTML
 - **CSS:** For styling and animations.
 - **JavaScript:** For the quiz logic and interactivity.
 
+## Contributions
+- Contributions are allowed, you can suggest anything that needs to modify for better features.
