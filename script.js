@@ -156,8 +156,7 @@ function showScore() {
         <h2>Your Score</h2>
         <p>You scored <strong>${score}</strong> out of <strong>${totalQuestions}</strong></p>
         <p>${message}</p>
-        <div class="emoji">${emoji}</div>
-    `;
+        <div class="emoji">${emoji}</div>`;
 
     // Append the score container to the main app
     const app = document.querySelector('.app');
