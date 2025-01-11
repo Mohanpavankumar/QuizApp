@@ -21,6 +21,9 @@ body {
     padding: 20px;
 }
 
+.title: hover{
+    color: blue;
+}
 .app {
     background: #ffffff;
     width: 90%;
