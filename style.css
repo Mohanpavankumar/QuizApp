@@ -156,7 +156,6 @@ body {
     z-index: -1;
     transform: translateX(-50%);
 }
-
 /* Pop-in Animation */
 @keyframes popIn {
     from {
@@ -168,7 +167,6 @@ body {
         transform: scale(1);
     }
 }
-
 /* Bounce Animation */
 @keyframes bounce {
     0%, 100% {
