@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
 body {
     background: linear-gradient(120deg, rgba(0, 30, 77, 0.8), rgba(0, 57, 115, 0.8)), 
                 url('quiz.webp');
@@ -20,7 +19,6 @@ body {
     align-items: center;
     padding: 20px;
 }
-
 .title: hover{
     color: blue;
 }
@@ -36,7 +34,6 @@ body {
     position: relative;
     animation: fadeIn 0.5s ease-in-out;
 }
-
 .app h1 {
     font-size: 28px;
     color: #001e4d;
@@ -46,11 +43,9 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
-
 .quiz {
     padding: 15px 0;
 }
-
 .quiz h2 {
     font-size: 20px;
     color: #001e4d;
@@ -58,7 +53,6 @@ body {
     text-align: left;
     margin-bottom: 15px;
 }
-
 .btn {
     background: #f9f9f9;
     color: #333;
@@ -72,17 +66,14 @@ body {
     cursor: pointer;
     transition: transform 0.2s, background 0.3s, color 0.3s;
 }
-
 .btn:hover:not([disabled]) {
     background: #333;
     color: #f4f4f4;
     transform: scale(1.05);
 }
-
 .btn:disabled {
     cursor: not-allowed;
 }
-
 #next-btn {
     background: #001e4d;
     color: #ffffff;
@@ -96,26 +87,22 @@ body {
     display: block;
     transition: background 0.3s, transform 0.2s;
 }
-
 #next-btn:hover {
     background: #003973;
     transform: translateY(-2px);
 }
-
 .correct {
     background-color: #9aeabc;
     font-weight: bold;
     border-color: #6ccf98;
     color: #003d00;
 }
-
 .incorrect {
     background-color: #ff9393;
     font-weight: bold;
     border-color: #e76b6b;
     color: #600000;
 }
-
 /* Animation */
 @keyframes fadeIn {
     from {
@@ -127,7 +114,6 @@ body {
         transform: scale(1);
     }
 }
-
 /* Stylish Score Section */
 .score-container {
     background: #001e4d;
@@ -141,25 +127,21 @@ body {
     position: relative;
     overflow: hidden;
 }
-
 .score-container h2 {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 15px;
     color: #fff;
 }
-
 .score-container p {
     font-size: 18px;
     line-height: 1.5;
 }
-
 .score-container .emoji {
     font-size: 50px;
     margin-top: 20px;
     animation: bounce 1s infinite;
 }
-
 /* Background decoration */
 .score-container::before {
     content: '';
