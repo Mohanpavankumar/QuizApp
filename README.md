@@ -37,5 +37,19 @@ QuizApp is a simple and interactive web-based quiz application built with **HTML
 - **CSS:** For styling and animations.
 - **JavaScript:** For the quiz logic and interactivity.
 
+---
+
+## **How to Clone and Run
+
+Prerequisites
+A web browser (Chrome, Firefox, Edge, etc.).
+A code editor (VS Code, Sublime Text, etc.) for modifications (optional).
+Steps to Clone and Run Locally
+1. Clone the Repository
+2. Navigate to project directory
+   cd QuizApp
+3. Open in a Browser
+Simply open the index.html file in your browser.
+
 ## Contributions
 - Contributions are allowed, you can suggest anything that needs to modify for better features.
