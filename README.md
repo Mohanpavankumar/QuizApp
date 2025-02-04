@@ -46,8 +46,7 @@ A web browser (Chrome, Firefox, Edge, etc.).
 A code editor (VS Code, Sublime Text, etc.) for modifications (optional).
 Steps to Clone and Run Locally
 1. Clone the Repository
-2. Navigate to project directory
-   cd QuizApp
+2. Navigate to project directory: cd QuizApp
 3. Open in a Browser
 Simply open the index.html file in your browser.
 
