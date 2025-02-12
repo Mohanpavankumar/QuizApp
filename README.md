@@ -57,6 +57,6 @@ Simply open the index.html file in your browser.
 
 ---
 
-Live Server
+## Live Server
 
 Link: https://brain-buster-quizapp.netlify.app/
